@@ -1,0 +1,23 @@
+Repository name:
+AXEZENT-AI-SAT-W24-Solver
+
+Description:
+Axezent AI W(2,4)=35 verification scaffold with n=34 avoider, CNF generator, native DPLL receipt, and external SAT solver path.
+
+Main upload commit summary:
+feat: add Axezent AI W24 SAT verification scaffold
+
+Main upload extended description:
+Adds W(2,4)=35 verification scaffold with n=34 avoider, DIMACS CNF generator, native DPLL UNSAT receipt, tests, logo, and CaDiCaL external solver script.
+
+After main upload, create this file manually in GitHub:
+.github/workflows/ci.yml
+
+Copy contents from:
+CI_WORKFLOW_TO_ADD_AFTER_UPLOAD.yml
+
+CI commit summary:
+ci: add verification workflow
+
+CI extended description:
+Adds GitHub Actions workflow to install the package and run verification tests on push and pull request.
